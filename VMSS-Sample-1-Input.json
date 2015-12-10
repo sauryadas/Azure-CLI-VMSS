@@ -1,0 +1,21 @@
+{
+  "virtualMachineProfile": {
+    "extensionProfile": {
+      "extensions": [
+        {
+          "autoUpgradeMinorVersion": false,
+          "extensionType": "DockerExtension",
+          "protectedSettings": "",
+          "provisioningState": "",
+          "publisher": "Microsoft.Azure.Extensions",
+          "settings": "",
+          "typeHandlerVersion": "1.0",
+          "name": "test",
+          "location":  "westus"
+        }
+      ]
+    }
+  },
+  "name": "testDasVMSS2",
+  "location": "WestUS"
+}
